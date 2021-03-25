@@ -6,6 +6,10 @@ contract ViewAndPure {
   function addToX(uint y) public view returns (uint) {
     return x + y;
   }
+  
+  function updateX() public view {
+    x += 1;
+  }
    
   function add(uint i, uint j) public pure returns (uint) {
     return i + j;
