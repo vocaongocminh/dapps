@@ -7,6 +7,7 @@ contract ViewAndPure {
     return x + y;
   }
   
+  // Không thay đổi được biến trạng thái "x" vì keyword "view" 
   function updateX() public view {
     x += 1;
   }
