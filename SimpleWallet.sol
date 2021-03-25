@@ -1,6 +1,6 @@
 pragma solidity ^0.5.13;
 
-import "./Allowance.sol";
+import "https://github.com/dosinhuda/dapps/blob/58ab38a62b7f394bc20b5b3908f8246bf1b6915b/Allowance.sol";
 
 contract SimpleWallet is Allowance {
     
